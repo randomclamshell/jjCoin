@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto|Ubuntu&display=swap');
+
+
+
+.header {
+line-height: 0 !important;
+font-family: 'Oswald', sans-serif;
+padding: 10px;
+}
+
+#name {
+text-align: left;
+}
+#address {
+text-align: right;
+padding: 10px;
+}
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+}
+.slideshow {
+	position: center;
+	height: 60vh;
+}
+
+.hours {
+	padding: 10px;
+}
+
+#contact {
+	line-height: 0 !important;
+}
+img {
+	height: 100%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+ul, p, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600
+}
