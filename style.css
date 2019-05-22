@@ -65,16 +65,17 @@ h6 {
 	padding: 10px;
 }
 
-footer img {
+#footer img {
 	height: 80px;
 	margin-left: 0 auto;
 	margin-right: 0 auto;
 	padding: 10px;
-	float: left;
+	align-items: center;
+	
 }
 
 .credit {
-	float: right;
+	text-align: center;
 }
 
 a {
@@ -87,3 +88,8 @@ a {
 	font-weight: 700;
 	color: #557A95;
 }
+
+ #numbers {
+	 text-align: right;
+	 line-height: 1 !important;
+ }
