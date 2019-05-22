@@ -1,45 +1,49 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto|Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto|Source+Sans+Pro|Ubuntu&display=swap');
 
 body {
-	background-image: linear-gradient(#EDC7B7, #eee2dc); /* Standard syntax (must be last) */
+	background: linear-gradient(to bottom, #eee2dc, #bab2b5 );
 }
 
+h1 {
+	font-size: 120px;
+	font-weight: 900;
+	font-family: 'Source Sans Pro', sans-serif;
+}
 h2 {
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: 700;
+	font-family: 'oswald', sans-serif;
+	font-weight: 800;
+	color: #379683;
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 30px;
 }
 
 h5 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 25px;
+	font-size: 28px;
+	color: #557A95;
+	font-weight: 500;
 }
+
 h6 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
-}
-h2 {
-	color: #123C69
 }
 
 .header {
 	line-height: 1;
 	font-family: 'Oswald', sans-serif;
 	padding: 10px;
-	font-size: 40px;
-	color: #AC3B61;
-}
-
-#name {
-	text-align: left;
-	
-}
-#address {
-	text-align: right;
-	padding: 10px;
+	color: #123C69;
+	font-weight: 900;
+	text-align: center;
 }
 
 .about {
 	font-size: 50px;
+	font-weight: 900;
 }
 
 
@@ -52,7 +56,7 @@ h2 {
 	padding: 10px;
 	font-size: 20px;
 	font-weight: 600;
-
+	color: #557A95;
 }
 
 #slides {
@@ -72,6 +76,14 @@ footer img {
 .credit {
 	float: right;
 }
+
 a {
 	color: red;
+}
+
+.card {
+	background-color: rgba(172, 59, 97, 0);
+	border: none;
+	font-weight: 700;
+	color: #557A95;
 }
