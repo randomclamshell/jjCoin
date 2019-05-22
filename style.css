@@ -1,24 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto|Ubuntu&display=swap');
 
-
-
-.header {
-line-height: 0 !important;
-font-family: 'Oswald', sans-serif;
-padding: 10px;
-}
-
-#name {
-text-align: left;
-}
-#address {
-text-align: right;
-padding: 10px;
+body {
+	background-image: linear-gradient(#EDC7B7, #eee2dc); /* Standard syntax (must be last) */
 }
 
 h2 {
 	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
 }
+
+h5 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+}
+h6 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+h2 {
+	color: #123C69
+}
+
+.header {
+	line-height: 1;
+	font-family: 'Oswald', sans-serif;
+	padding: 10px;
+	font-size: 40px;
+	color: #AC3B61;
+}
+
+#name {
+	text-align: left;
+	
+}
+#address {
+	text-align: right;
+	padding: 10px;
+}
+
+.about {
+	font-size: 50px;
+}
+
+
 .slideshow {
 	position: center;
 	height: 60vh;
@@ -26,18 +50,28 @@ h2 {
 
 .hours {
 	padding: 10px;
+	font-size: 20px;
+	font-weight: 600;
+
 }
 
-#contact {
-	line-height: 0 !important;
-}
-img {
+#slides {
 	height: 100%;
 	margin: 0 auto;
 	padding: 10px;
 }
 
-ul, p, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 600
+footer img {
+	height: 80px;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	padding: 10px;
+	float: left;
+}
+
+.credit {
+	float: right;
+}
+a {
+	color: red;
 }
